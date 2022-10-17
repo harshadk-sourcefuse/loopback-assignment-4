@@ -1,0 +1,23 @@
+{
+  "ids": {
+    "Customer": 3,
+    "User": 4,
+    "Role": 4
+  },
+  "models": {
+    "Customer": {
+      "1": "{\"name\":\"Harshad\",\"website\":\"profile@harshadk.com\",\"address\":\"Mumbai, Maharashtra, India\",\"id\":1}",
+      "2": "{\"name\":\"Avengers\",\"website\":\"profile@avengers.com\",\"address\":\"Avengers\",\"id\":2}"
+    },
+    "User": {
+      "1": "{\"firstName\":\"Tony\",\"lastName\":\"Stark\",\"email\":\"tony.stark@avengers.com\",\"address\":\"Avengers Headquarter\",\"phoneNumber\":\"6000000000\",\"createdOn\":\"2022-10-17T08:11:45.737Z\",\"customerId\":2,\"id\":1}",
+      "2": "{\"firstName\":\"Thor\",\"lastName\":\"(God of Thunder)\",\"email\":\"thor@avengers.com\",\"address\":\"Asgard\",\"phoneNumber\":\"1000000000\",\"createdOn\":\"2022-10-17T08:11:45.737Z\",\"customerId\":2,\"id\":2}",
+      "3": "{\"firstName\":\"Captain\",\"lastName\":\"America\",\"email\":\"captain.america@avengers.com\",\"address\":\"US Army\",\"phoneNumber\":\"2000000000\",\"createdOn\":\"2022-10-17T08:11:45.737Z\",\"customerId\":2,\"id\":3}"
+    },
+    "Role": {
+      "1": "{\"name\":\"Tony - IronMan\",\"key\":\"Super Admin\",\"userId\":1,\"id\":1}",
+      "2": "{\"name\":\"Thor Odinson - God of Thunder\",\"key\":\"Subscriber\",\"userId\":2,\"id\":2}",
+      "3": "{\"name\":\"Steve - Captain America\",\"key\":\"Subscriber\",\"userId\":3,\"id\":3}"
+    }
+  }
+}
