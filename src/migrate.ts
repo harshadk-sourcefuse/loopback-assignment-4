@@ -6,7 +6,8 @@ export async function migrate(args: string[]) {
 
   const app = new LoopbackUserCrudApplication();
   await app.boot();
-  await app.migrateSchema({existingSchema});
+  await app.migrateSchema({existingSchema,  models: ['User', 'Role', 'Customer'],
+});
 
   // Connectors usually keep a pool of opened connections,
   // this keeps the process running even after all work is done.
